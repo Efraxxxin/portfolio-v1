@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-sacale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Efraín de León</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+
+    <!---MENÚ DEL ENCABEZADO---->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Efra</a>
+            </div>
+            <nav id="nav" class="responsive">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Acerca de mi</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Portafolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+
+    <!---INICIO---->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/My project-1.png" alt="foto de perfil">
+            </div>
+            <h1>Efraín Flores</h1>
+
+            <h2>Ingeniero en TIC'S</h2>
+
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!---Sobremi---->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>¡Hola, soy Efra!</span> Soy un joven hidrocalido apasionado en la tecnología, especialmente en el
+                software y el hardware de las computadoras.</p>
+
+            <div class="fila">
+                <!-- Info personal -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños:</strong>
+                            11/09/2000
+                        </li>
+                        <li>
+                            <strong>Teléfono:</strong>
+                            4491236946
+                        </li>
+                        <li>
+                            <strong>Email:</strong>
+                            efas112023421@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección:</strong>
+                            Jardines de la Cruz, Ags, Aguascalientes.
+                        </li>
+                        <li>
+                            <strong>Intereses:</strong>
+                            <span>Desarrollo en las tics</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Tecnologías</h3>
+                    <div class="contenedor-tecnologias">
+                        <div class="tecnologias">
+                            <i class="fa-solid fa-file-word"></i>
+                            <span>Office</span>
+                        </div>
+                        <div class="tecnologias">
+                            <i class="fa-solid fa-language"></i>
+                            <span>Inglés</span>
+                        </div>
+                        <div class="tecnologias">
+                            <i class="fa-brands fa-python"></i>
+                            <span>PYTHON</span>
+                        </div>
+                        <div class="tecnologias">
+                            <i class="fa-brands fa-react"></i>
+                            <span>REACT</span>
+                        </div>
+                        <div class="tecnologias">
+                            <i class="fa-brands fa-html5"></i>
+                            <span>HTML, CSS</span>
+                        </div>
+                        <div class="tecnologias">
+                            <i class="fa-solid fa-network-wired"></i>
+                            <span>REDES (CISCO)</span>
+                        </div>
+                        <div class="tecnologias">
+                            <i class="fa-solid fa-database"></i>
+                            <span>SQL Y NOSQL</span>
+                        </div>
+                        <div class="tecnologias">
+                            <i class="fa-solid fa-mobile-screen"></i>
+                            <span>ANDROID</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+
+    <!---curriculum---->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación:</h3>
+                    <div class="item izq">
+                        <h4>Soporte y Mantenimiento de Equipo de Cómputo</h4>
+                        <span class="casa">CETis #155</span>
+                        <span class="fecha">2015-2018</span>
+                        <p>Estudié soporte y mantenimiento de equipo de cómputo, obteniendo un título como técnico en
+                            tal ámbito y
+                            aprendiendo a como hacer mantenimiento preventivo y correctivo a las computadoras.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ingeniería en Tecnologías de la Información y Comunicaciones</h4>
+                        <span class="casa">TECNM Campus: Aguascalientes</span>
+                        <span class="fecha">2018-2023</span>
+                        <p>En el instituto tecnológico de Aguascalientes cursé la ingeniería en tics, obteniendo bases
+                            en programación,
+                            base de datos, redes (con certificados por Cisco Network Academy),
+                            programación web, ciberseguridad y big data. Además de obtener una certificación (TOEFL) en
+                            el idioma inglés.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <!---columna derecha---->
+                <div class="col derecha">
+                    <h3>Experiencia:</h3>
+                    <div class="item der">
+                        <h4>Ayudante general</h4>
+                        <span class="casa">Joriba</span>
+                        <span class="fecha">2018-2022</span>
+                        <p>Me desempeñé en diferentes áreas dentro de la compañía, es una empresa dedicada a la venta de
+                            uniformes y bordado,
+                            realicé tareas desde ayudante general e incluso en soporte y mantenimiento en las
+                            computadoras.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Atención al cliente</h4>
+                        <span class="casa">TELEPERFORMANCE</span>
+                        <span class="casa">2020</span>
+                        <p>Trabajé en el área de "wireless" dando soporte a clientes en el
+                            extranjero que tenían problemas con sus servicios de internet, teléfono o tv.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!---PORTFOLIO---->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/re.jpg" alt="trabajando">
+                    <div class="overlay">
+                        <h3>Dentro de poco lo actualizamos</h3>
+                        <p>Lo sentimos :c</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!---Contacto---->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTAME</h2>
+            <div class="fila">
+                <!---Formulario---->
+                <div class="col">
+                    <input type="text" placeholder="Tu nombre">
+                    <input type="text" placeholder="Teléfono">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Asunto">
+                    <textarea name=" " id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar mensaje        <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!---Mapa---->
+                <div class="col">
+                    <img src="img/ubi.png" alt="ubicación">
+                    <div class="info">
+                        <ul>
+                            <li> <i class="fa-solid fa-location-dot"></i> 
+                                Jardines de la Cruz, Aguascalientes
+                            </li>
+                            <li> <i class="fa-solid fa-mobile-screen"></i>
+                                Tel. 449-123-6046
+                            </li>
+                            <li> <i class="fa-solid fa-envelope"></i>
+                                Email: efas112023421@gmail.com
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!---footer---->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
